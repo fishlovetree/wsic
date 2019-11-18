@@ -1,0 +1,563 @@
+2019-11-18 09:38:45.636 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-18 09:38:45.836 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ef8c2dbe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-18 09:38:46.248 [restartedMain] INFO  com.ws.wsic.elec.business.WsicApplication - No active profile set, falling back to default profiles: default
+2019-11-18 09:38:47.218 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-18 09:38:47.222 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-18 09:38:47.250 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-11-18 09:38:47.674 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=eeb0928d-04ad-315b-89e5-a3b04be7671d
+2019-11-18 09:38:47.809 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d3722ac1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-18 09:38:47.846 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ef8c2dbe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-18 09:38:48.365 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 11012 (http)
+2019-11-18 09:38:48.379 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-11012"]
+2019-11-18 09:38:48.390 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-11-18 09:38:48.390 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-11-18 09:38:48.541 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-11-18 09:38:48.542 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2268 ms
+2019-11-18 09:38:49.164 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2019-11-18 09:38:49.937 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-11-18 09:38:50.119 [restartedMain] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-11-18 09:38:50.120 [restartedMain] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-11-18 09:38:50.741 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-11-18 09:38:50.741 [restartedMain] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-18 09:38:50.749 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-11-18 09:38:50.749 [restartedMain] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-18 09:38:50.932 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-18 09:38:52.246 [restartedMain] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-11-18 09:38:52.280 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-11-18 09:38:52.426 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-11-18 09:38:52.426 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-11-18 09:38:52.584 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-11-18 09:38:52.584 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-11-18 09:38:52.944 [restartedMain] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-11-18 09:38:53.135 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-11-18 09:38:53.135 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-11-18 09:38:53.135 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-11-18 09:38:53.135 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-11-18 09:38:53.135 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-11-18 09:38:53.135 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-11-18 09:38:53.135 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-11-18 09:38:53.297 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-11-18 09:38:53.300 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-11-18 09:38:53.303 [restartedMain] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-11-18 09:38:53.306 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1574041133305 with initial instances count: 1
+2019-11-18 09:38:53.440 [restartedMain] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application WSIC-ELEC-BUSINESS with eureka with status UP
+2019-11-18 09:38:53.441 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1574041133441, current=UP, previous=STARTING]
+2019-11-18 09:38:53.443 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WSIC-ELEC-BUSINESS/windows10.microdone.cn:wsic-elec-business:11012: registering service...
+2019-11-18 09:38:53.445 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-11-18 09:38:53.480 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-11-18 09:38:53.487 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WSIC-ELEC-BUSINESS/windows10.microdone.cn:wsic-elec-business:11012 - registration status: 204
+2019-11-18 09:38:53.525 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-11-18 09:38:54.123 [restartedMain] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-11-18 09:38:54.128 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-11012"]
+2019-11-18 09:38:54.145 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 11012 (http) with context path ''
+2019-11-18 09:38:54.145 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 11012
+2019-11-18 09:38:54.147 [restartedMain] INFO  com.ws.wsic.elec.business.WsicApplication - Started WsicApplication in 9.276 seconds (JVM running for 10.198)
+2019-11-18 09:39:36.589 [http-nio-11012-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-18 09:39:36.589 [http-nio-11012-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-11-18 09:39:36.601 [http-nio-11012-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2019-11-18 09:41:09.036 [Thread-2] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Unregistering application WSIC-ELEC-BUSINESS with eureka with status DOWN
+2019-11-18 09:41:09.036 [Thread-2] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1574041269036, current=DOWN, previous=UP]
+2019-11-18 09:41:09.037 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WSIC-ELEC-BUSINESS/windows10.microdone.cn:wsic-elec-business:11012: registering service...
+2019-11-18 09:41:09.042 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WSIC-ELEC-BUSINESS/windows10.microdone.cn:wsic-elec-business:11012 - registration status: 204
+2019-11-18 09:41:09.046 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-18 09:41:10.195 [Thread-2] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-11-18 09:41:13.196 [Thread-2] INFO  com.netflix.discovery.DiscoveryClient - Unregistering ...
+2019-11-18 09:41:13.203 [Thread-2] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WSIC-ELEC-BUSINESS/windows10.microdone.cn:wsic-elec-business:11012 - deregister  status: 200
+2019-11-18 09:41:13.211 [Thread-2] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2019-11-18 09:41:13.938 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ef8c2dbe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-18 09:41:14.256 [restartedMain] INFO  com.ws.wsic.elec.business.WsicApplication - No active profile set, falling back to default profiles: default
+2019-11-18 09:41:14.749 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-18 09:41:14.749 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-18 09:41:14.754 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2019-11-18 09:41:14.856 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=eeb0928d-04ad-315b-89e5-a3b04be7671d
+2019-11-18 09:41:14.879 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d3722ac1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-18 09:41:14.882 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ef8c2dbe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-18 09:41:15.068 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 11012 (http)
+2019-11-18 09:41:15.069 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-11012"]
+2019-11-18 09:41:15.069 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-11-18 09:41:15.069 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-11-18 09:41:15.103 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-11-18 09:41:15.103 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 845 ms
+2019-11-18 09:41:15.250 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2019-11-18 09:41:15.500 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-11-18 09:41:15.515 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-11-18 09:41:15.515 [restartedMain] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-18 09:41:15.577 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-18 09:41:16.321 [restartedMain] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-11-18 09:41:16.322 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-11-18 09:41:16.328 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-11-18 09:41:16.328 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-11-18 09:41:16.328 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-11-18 09:41:16.328 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-11-18 09:41:16.397 [restartedMain] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-11-18 09:41:16.402 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-11-18 09:41:16.402 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-11-18 09:41:16.403 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-11-18 09:41:16.403 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-11-18 09:41:16.403 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-11-18 09:41:16.403 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-11-18 09:41:16.403 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-11-18 09:41:16.408 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-11-18 09:41:16.409 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-11-18 09:41:16.410 [restartedMain] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-11-18 09:41:16.410 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1574041276410 with initial instances count: 2
+2019-11-18 09:41:16.458 [restartedMain] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application WSIC-ELEC-BUSINESS with eureka with status UP
+2019-11-18 09:41:16.458 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1574041276458, current=UP, previous=STARTING]
+2019-11-18 09:41:16.459 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WSIC-ELEC-BUSINESS/windows10.microdone.cn:wsic-elec-business:11012: registering service...
+2019-11-18 09:41:16.462 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-11-18 09:41:16.463 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-11-18 09:41:16.467 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WSIC-ELEC-BUSINESS/windows10.microdone.cn:wsic-elec-business:11012 - registration status: 204
+2019-11-18 09:41:16.469 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-11-18 09:41:17.081 [restartedMain] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-11-18 09:41:17.083 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-11012"]
+2019-11-18 09:41:17.088 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 11012 (http) with context path ''
+2019-11-18 09:41:17.089 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 11012
+2019-11-18 09:41:17.090 [restartedMain] INFO  com.ws.wsic.elec.business.WsicApplication - Started WsicApplication in 3.45 seconds (JVM running for 153.141)
+2019-11-18 09:41:17.094 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-11-18 09:41:17.264 [http-nio-11012-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-18 09:41:17.264 [http-nio-11012-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-11-18 09:41:17.273 [http-nio-11012-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2019-11-18 09:44:12.387 [http-nio-11012-exec-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-11-18 09:44:12.608 [http-nio-11012-exec-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-11-18 13:38:57.149 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-18 13:38:57.385 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$61ee3f67] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-18 13:38:57.886 [restartedMain] INFO  com.ws.wsic.elec.api.WsicApplication - No active profile set, falling back to default profiles: default
+2019-11-18 13:38:58.696 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.ws.wsic.elec.business.mapper]' package. Please check your configuration.
+2019-11-18 13:38:58.838 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.ws.wsic.elec.api]' package. Please check your configuration.
+2019-11-18 13:38:58.892 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-18 13:38:58.895 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-18 13:38:58.916 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2019-11-18 13:38:59.338 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=7a3429f3-2d99-3ba4-ac48-ad9ace0d8cc5
+2019-11-18 13:38:59.464 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$45d43c6a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-18 13:38:59.496 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$61ee3f67] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-18 13:39:00.146 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 11013 (http)
+2019-11-18 13:39:00.163 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-11013"]
+2019-11-18 13:39:00.171 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-11-18 13:39:00.172 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-11-18 13:39:00.340 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-11-18 13:39:00.340 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2429 ms
+2019-11-18 13:39:00.976 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2019-11-18 13:39:01.111 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'apiController': Unsatisfied dependency expressed through field 'meterService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'meterServiceImpl': Unsatisfied dependency expressed through field 'meterMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.ws.wsic.elec.api.mapper.MeterMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-11-18 13:39:01.132 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-11-18 13:39:01.153 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-11-18 13:39:01.404 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field meterMapper in com.ws.wsic.elec.api.service.impl.MeterServiceImpl required a bean of type 'com.ws.wsic.elec.api.mapper.MeterMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.ws.wsic.elec.api.mapper.MeterMapper' in your configuration.
+
+2019-11-18 13:39:23.008 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-18 13:39:23.193 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8fde7191] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-18 13:39:23.625 [restartedMain] INFO  com.ws.wsic.elec.api.WsicApplication - No active profile set, falling back to default profiles: default
+2019-11-18 13:39:24.424 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.ws.wsic.elec.business.mapper]' package. Please check your configuration.
+2019-11-18 13:39:24.553 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.ws.wsic.elec.api]' package. Please check your configuration.
+2019-11-18 13:39:24.610 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-18 13:39:24.612 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-18 13:39:24.632 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2019-11-18 13:39:25.069 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=7a3429f3-2d99-3ba4-ac48-ad9ace0d8cc5
+2019-11-18 13:39:25.215 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$73c46e94] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-18 13:39:25.246 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8fde7191] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-18 13:39:25.808 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 11013 (http)
+2019-11-18 13:39:25.825 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-11013"]
+2019-11-18 13:39:25.833 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-11-18 13:39:25.833 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-11-18 13:39:26.000 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-11-18 13:39:26.000 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2354 ms
+2019-11-18 13:39:26.665 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2019-11-18 13:39:26.806 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'apiController': Unsatisfied dependency expressed through field 'meterService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'meterServiceImpl': Unsatisfied dependency expressed through field 'meterMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.ws.wsic.elec.api.mapper.MeterMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-11-18 13:39:26.830 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-11-18 13:39:26.846 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-11-18 13:39:27.016 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field meterMapper in com.ws.wsic.elec.api.service.impl.MeterServiceImpl required a bean of type 'com.ws.wsic.elec.api.mapper.MeterMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.ws.wsic.elec.api.mapper.MeterMapper' in your configuration.
+
+2019-11-18 14:16:54.421 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-18 14:16:54.661 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f5d3a191] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-18 14:16:55.224 [restartedMain] INFO  com.ws.wsic.elec.api.WsicApplication - No active profile set, falling back to default profiles: default
+2019-11-18 14:16:56.283 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.ws.wsic.elec.business.mapper]' package. Please check your configuration.
+2019-11-18 14:16:56.443 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.ws.wsic.elec.api]' package. Please check your configuration.
+2019-11-18 14:16:56.519 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-18 14:16:56.523 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-18 14:16:56.553 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-11-18 14:16:57.121 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=7a3429f3-2d99-3ba4-ac48-ad9ace0d8cc5
+2019-11-18 14:16:57.295 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d9b99e94] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-18 14:16:57.335 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f5d3a191] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-18 14:16:58.156 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 11013 (http)
+2019-11-18 14:16:58.177 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-11013"]
+2019-11-18 14:16:58.191 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-11-18 14:16:58.192 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-11-18 14:16:58.422 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-11-18 14:16:58.422 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3171 ms
+2019-11-18 14:16:59.289 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2019-11-18 14:16:59.463 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'apiController': Unsatisfied dependency expressed through field 'meterService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'meterServiceImpl': Unsatisfied dependency expressed through field 'meterMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.ws.wsic.elec.api.mapper.MeterMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-11-18 14:16:59.490 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-11-18 14:16:59.522 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-11-18 14:16:59.799 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field meterMapper in com.ws.wsic.elec.api.service.impl.MeterServiceImpl required a bean of type 'com.ws.wsic.elec.api.mapper.MeterMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.ws.wsic.elec.api.mapper.MeterMapper' in your configuration.
+
+2019-11-18 14:17:35.887 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-18 14:17:36.104 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$494121c3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-18 14:17:36.711 [restartedMain] INFO  com.ws.wsic.elec.api.WsicApplication - No active profile set, falling back to default profiles: default
+2019-11-18 14:17:38.209 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-18 14:17:38.214 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-18 14:17:38.250 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+2019-11-18 14:17:38.926 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=e55f1894-bdfd-3cd8-a004-9ad5dd77865d
+2019-11-18 14:17:39.129 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2d271ec6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-18 14:17:39.174 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$494121c3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-18 14:17:40.127 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 11013 (http)
+2019-11-18 14:17:40.153 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-11013"]
+2019-11-18 14:17:40.172 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-11-18 14:17:40.172 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-11-18 14:17:40.453 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-11-18 14:17:40.454 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3708 ms
+2019-11-18 14:17:41.453 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2019-11-18 14:17:42.676 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-11-18 14:17:42.978 [restartedMain] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-11-18 14:17:42.980 [restartedMain] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-11-18 14:17:43.839 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-11-18 14:17:43.840 [restartedMain] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-18 14:17:43.848 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-11-18 14:17:43.849 [restartedMain] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-18 14:17:44.119 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-18 14:17:46.320 [restartedMain] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-11-18 14:17:46.365 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-11-18 14:17:46.586 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-11-18 14:17:46.587 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-11-18 14:17:46.811 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-11-18 14:17:46.811 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-11-18 14:17:47.246 [restartedMain] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-11-18 14:17:47.585 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-11-18 14:17:47.585 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-11-18 14:17:47.585 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-11-18 14:17:47.585 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-11-18 14:17:47.585 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-11-18 14:17:47.586 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-11-18 14:17:47.586 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-11-18 14:17:47.864 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-11-18 14:17:47.868 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-11-18 14:17:47.873 [restartedMain] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-11-18 14:17:47.879 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1574057867877 with initial instances count: 2
+2019-11-18 14:17:48.121 [restartedMain] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application WSIC-ELEC-API with eureka with status UP
+2019-11-18 14:17:48.122 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1574057868122, current=UP, previous=STARTING]
+2019-11-18 14:17:48.125 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WSIC-ELEC-API/windows10.microdone.cn:wsic-elec-api:11013: registering service...
+2019-11-18 14:17:48.132 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-11-18 14:17:48.180 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-11-18 14:17:48.194 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WSIC-ELEC-API/windows10.microdone.cn:wsic-elec-api:11013 - registration status: 204
+2019-11-18 14:17:48.260 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-11-18 14:17:48.839 [restartedMain] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-11-18 14:17:48.851 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-11013"]
+2019-11-18 14:17:48.884 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 11013 (http) with context path ''
+2019-11-18 14:17:48.885 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 11013
+2019-11-18 14:17:48.888 [restartedMain] INFO  com.ws.wsic.elec.api.WsicApplication - Started WsicApplication in 13.861 seconds (JVM running for 14.859)
+2019-11-18 14:18:09.671 [http-nio-11013-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-18 14:18:09.671 [http-nio-11013-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-11-18 14:18:09.680 [http-nio-11013-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2019-11-18 14:18:25.868 [Thread-2] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Unregistering application WSIC-ELEC-API with eureka with status DOWN
+2019-11-18 14:18:25.868 [Thread-2] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1574057905868, current=DOWN, previous=UP]
+2019-11-18 14:18:25.868 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WSIC-ELEC-API/windows10.microdone.cn:wsic-elec-api:11013: registering service...
+2019-11-18 14:18:25.876 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WSIC-ELEC-API/windows10.microdone.cn:wsic-elec-api:11013 - registration status: 204
+2019-11-18 14:18:25.877 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-18 14:18:27.016 [Thread-2] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-11-18 14:18:30.017 [Thread-2] INFO  com.netflix.discovery.DiscoveryClient - Unregistering ...
+2019-11-18 14:18:30.023 [Thread-2] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WSIC-ELEC-API/windows10.microdone.cn:wsic-elec-api:11013 - deregister  status: 200
+2019-11-18 14:18:30.030 [Thread-2] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2019-11-18 14:18:30.721 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$494121c3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-18 14:18:30.992 [restartedMain] INFO  com.ws.wsic.elec.api.WsicApplication - No active profile set, falling back to default profiles: default
+2019-11-18 14:18:31.534 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-18 14:18:31.534 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-18 14:18:31.538 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019-11-18 14:18:31.631 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=e55f1894-bdfd-3cd8-a004-9ad5dd77865d
+2019-11-18 14:18:31.661 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2d271ec6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-18 14:18:31.665 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$494121c3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-18 14:18:31.861 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 11013 (http)
+2019-11-18 14:18:31.862 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-11013"]
+2019-11-18 14:18:31.862 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-11-18 14:18:31.862 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-11-18 14:18:31.898 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-11-18 14:18:31.898 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 904 ms
+2019-11-18 14:18:32.033 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2019-11-18 14:18:32.243 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-11-18 14:18:32.261 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-11-18 14:18:32.261 [restartedMain] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-18 14:18:32.316 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-18 14:18:32.974 [restartedMain] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-11-18 14:18:32.991 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-11-18 14:18:32.997 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-11-18 14:18:32.997 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-11-18 14:18:32.997 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-11-18 14:18:32.997 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-11-18 14:18:33.067 [restartedMain] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-11-18 14:18:33.071 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-11-18 14:18:33.071 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-11-18 14:18:33.071 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-11-18 14:18:33.071 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-11-18 14:18:33.071 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-11-18 14:18:33.071 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-11-18 14:18:33.071 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-11-18 14:18:33.078 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-11-18 14:18:33.079 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-11-18 14:18:33.079 [restartedMain] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-11-18 14:18:33.080 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1574057913080 with initial instances count: 3
+2019-11-18 14:18:33.132 [restartedMain] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application WSIC-ELEC-API with eureka with status UP
+2019-11-18 14:18:33.133 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1574057913133, current=UP, previous=STARTING]
+2019-11-18 14:18:33.133 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WSIC-ELEC-API/windows10.microdone.cn:wsic-elec-api:11013: registering service...
+2019-11-18 14:18:33.136 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-11-18 14:18:33.137 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-11-18 14:18:33.142 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WSIC-ELEC-API/windows10.microdone.cn:wsic-elec-api:11013 - registration status: 204
+2019-11-18 14:18:33.146 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-11-18 14:18:33.777 [restartedMain] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-11-18 14:18:33.779 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-11013"]
+2019-11-18 14:18:33.782 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 11013 (http) with context path ''
+2019-11-18 14:18:33.783 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 11013
+2019-11-18 14:18:33.783 [restartedMain] INFO  com.ws.wsic.elec.api.WsicApplication - Started WsicApplication in 3.338 seconds (JVM running for 59.755)
+2019-11-18 14:18:33.786 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-11-18 14:18:44.959 [Thread-11] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Unregistering application WSIC-ELEC-API with eureka with status DOWN
+2019-11-18 14:18:44.959 [Thread-11] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1574057924959, current=DOWN, previous=UP]
+2019-11-18 14:18:44.959 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WSIC-ELEC-API/windows10.microdone.cn:wsic-elec-api:11013: registering service...
+2019-11-18 14:18:44.967 [Thread-11] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-18 14:18:44.968 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WSIC-ELEC-API/windows10.microdone.cn:wsic-elec-api:11013 - registration status: 204
+2019-11-18 14:18:46.088 [Thread-11] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-11-18 14:18:49.090 [Thread-11] INFO  com.netflix.discovery.DiscoveryClient - Unregistering ...
+2019-11-18 14:18:49.101 [Thread-11] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WSIC-ELEC-API/windows10.microdone.cn:wsic-elec-api:11013 - deregister  status: 200
+2019-11-18 14:18:49.113 [Thread-11] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2019-11-18 14:18:49.900 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$494121c3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-18 14:18:50.161 [restartedMain] INFO  com.ws.wsic.elec.api.WsicApplication - No active profile set, falling back to default profiles: default
+2019-11-18 14:18:50.615 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-18 14:18:50.616 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-18 14:18:50.620 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019-11-18 14:18:50.690 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=e55f1894-bdfd-3cd8-a004-9ad5dd77865d
+2019-11-18 14:18:50.715 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2d271ec6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-18 14:18:50.718 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$494121c3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-18 14:18:50.887 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 11013 (http)
+2019-11-18 14:18:50.888 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-11013"]
+2019-11-18 14:18:50.888 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-11-18 14:18:50.888 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-11-18 14:18:50.916 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-11-18 14:18:50.916 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 752 ms
+2019-11-18 14:18:51.019 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2019-11-18 14:18:51.204 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-11-18 14:18:51.218 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-11-18 14:18:51.218 [restartedMain] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-18 14:18:51.266 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-18 14:18:51.875 [restartedMain] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-11-18 14:18:51.876 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-11-18 14:18:51.882 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-11-18 14:18:51.882 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-11-18 14:18:51.882 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-11-18 14:18:51.882 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-11-18 14:18:51.938 [restartedMain] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-11-18 14:18:51.940 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-11-18 14:18:51.940 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-11-18 14:18:51.940 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-11-18 14:18:51.940 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-11-18 14:18:51.940 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-11-18 14:18:51.940 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-11-18 14:18:51.940 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-11-18 14:18:51.947 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-11-18 14:18:51.948 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-11-18 14:18:51.948 [restartedMain] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-11-18 14:18:51.949 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1574057931949 with initial instances count: 3
+2019-11-18 14:18:51.997 [restartedMain] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application WSIC-ELEC-API with eureka with status UP
+2019-11-18 14:18:51.997 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1574057931997, current=UP, previous=STARTING]
+2019-11-18 14:18:51.997 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WSIC-ELEC-API/windows10.microdone.cn:wsic-elec-api:11013: registering service...
+2019-11-18 14:18:51.999 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-11-18 14:18:52.000 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-11-18 14:18:52.005 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WSIC-ELEC-API/windows10.microdone.cn:wsic-elec-api:11013 - registration status: 204
+2019-11-18 14:18:52.007 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-11-18 14:18:52.533 [restartedMain] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-11-18 14:18:52.535 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-11013"]
+2019-11-18 14:18:52.538 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 11013 (http) with context path ''
+2019-11-18 14:18:52.539 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 11013
+2019-11-18 14:18:52.539 [restartedMain] INFO  com.ws.wsic.elec.api.WsicApplication - Started WsicApplication in 2.936 seconds (JVM running for 78.51)
+2019-11-18 14:18:52.543 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-11-18 14:18:57.067 [http-nio-11013-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-18 14:18:57.067 [http-nio-11013-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-11-18 14:18:57.070 [http-nio-11013-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2019-11-18 14:19:56.849 [http-nio-11013-exec-8] INFO  com.netflix.config.ChainedDynamicProperty - Flipping property: wsic-system.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-11-18 14:19:56.865 [http-nio-11013-exec-8] INFO  com.netflix.util.concurrent.ShutdownEnabledTimer - Shutdown hook installed for: NFLoadBalancer-PingTimer-wsic-system
+2019-11-18 14:19:56.866 [http-nio-11013-exec-8] INFO  com.netflix.loadbalancer.BaseLoadBalancer - Client: wsic-system instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=wsic-system,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2019-11-18 14:19:56.871 [http-nio-11013-exec-8] INFO  c.n.loadbalancer.DynamicServerListLoadBalancer - Using serverListUpdater PollingServerListUpdater
+2019-11-18 14:19:56.883 [http-nio-11013-exec-8] INFO  com.netflix.config.ChainedDynamicProperty - Flipping property: wsic-system.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-11-18 14:19:56.885 [http-nio-11013-exec-8] INFO  c.n.loadbalancer.DynamicServerListLoadBalancer - DynamicServerListLoadBalancer for client wsic-system initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=wsic-system,current list of Servers=[windows10.microdone.cn:11011],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:windows10.microdone.cn:11011;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@37312525
+2019-11-18 14:19:57.556 [http-nio-11013-exec-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-11-18 14:19:57.849 [http-nio-11013-exec-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-11-18 14:19:57.876 [PollingServerListUpdater-0] INFO  com.netflix.config.ChainedDynamicProperty - Flipping property: wsic-system.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-11-18 14:20:45.657 [Thread-20] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Unregistering application WSIC-ELEC-API with eureka with status DOWN
+2019-11-18 14:20:45.657 [Thread-20] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1574058045657, current=DOWN, previous=UP]
+2019-11-18 14:20:45.657 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WSIC-ELEC-API/windows10.microdone.cn:wsic-elec-api:11013: registering service...
+2019-11-18 14:20:45.661 [Thread-20] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-18 14:20:45.663 [Thread-20] INFO  com.netflix.util.concurrent.ShutdownEnabledTimer - Shutdown hook removed for: NFLoadBalancer-PingTimer-wsic-system
+2019-11-18 14:20:45.663 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WSIC-ELEC-API/windows10.microdone.cn:wsic-elec-api:11013 - registration status: 204
+2019-11-18 14:20:46.774 [Thread-20] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-11-18 14:20:49.776 [Thread-20] INFO  com.netflix.discovery.DiscoveryClient - Unregistering ...
+2019-11-18 14:20:49.781 [Thread-20] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WSIC-ELEC-API/windows10.microdone.cn:wsic-elec-api:11013 - deregister  status: 200
+2019-11-18 14:20:49.786 [Thread-20] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2019-11-18 14:20:49.787 [Thread-20] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-11-18 14:20:49.794 [Thread-20] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-11-18 14:20:50.593 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$494121c3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-18 14:20:50.873 [restartedMain] INFO  com.ws.wsic.elec.api.WsicApplication - No active profile set, falling back to default profiles: default
+2019-11-18 14:20:51.344 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-18 14:20:51.345 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-18 14:20:51.350 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2019-11-18 14:20:51.424 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=e55f1894-bdfd-3cd8-a004-9ad5dd77865d
+2019-11-18 14:20:51.444 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2d271ec6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-18 14:20:51.446 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$494121c3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-18 14:20:51.650 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 11013 (http)
+2019-11-18 14:20:51.651 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-11013"]
+2019-11-18 14:20:51.652 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-11-18 14:20:51.652 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-11-18 14:20:51.687 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-11-18 14:20:51.688 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 813 ms
+2019-11-18 14:20:51.803 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2019-11-18 14:20:51.998 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-11-18 14:20:52.010 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-11-18 14:20:52.010 [restartedMain] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-18 14:20:52.066 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-18 14:20:52.743 [restartedMain] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-11-18 14:20:52.744 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-11-18 14:20:52.747 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-11-18 14:20:52.747 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-11-18 14:20:52.747 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-11-18 14:20:52.747 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-11-18 14:20:52.807 [restartedMain] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-11-18 14:20:52.808 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-11-18 14:20:52.808 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-11-18 14:20:52.808 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-11-18 14:20:52.808 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-11-18 14:20:52.808 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-11-18 14:20:52.808 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-11-18 14:20:52.808 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-11-18 14:20:52.813 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-11-18 14:20:52.814 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-11-18 14:20:52.814 [restartedMain] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-11-18 14:20:52.815 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1574058052815 with initial instances count: 3
+2019-11-18 14:20:52.858 [restartedMain] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application WSIC-ELEC-API with eureka with status UP
+2019-11-18 14:20:52.858 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1574058052858, current=UP, previous=STARTING]
+2019-11-18 14:20:52.858 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WSIC-ELEC-API/windows10.microdone.cn:wsic-elec-api:11013: registering service...
+2019-11-18 14:20:52.860 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-11-18 14:20:52.861 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-11-18 14:20:52.865 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WSIC-ELEC-API/windows10.microdone.cn:wsic-elec-api:11013 - registration status: 204
+2019-11-18 14:20:52.867 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-11-18 14:20:53.400 [restartedMain] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-11-18 14:20:53.401 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-11013"]
+2019-11-18 14:20:53.406 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 11013 (http) with context path ''
+2019-11-18 14:20:53.406 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 11013
+2019-11-18 14:20:53.407 [restartedMain] INFO  com.ws.wsic.elec.api.WsicApplication - Started WsicApplication in 3.108 seconds (JVM running for 199.378)
+2019-11-18 14:20:53.409 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-11-18 14:25:52.810 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-11-18 14:30:52.811 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-11-18 14:32:57.969 [Thread-33] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Unregistering application WSIC-ELEC-API with eureka with status DOWN
+2019-11-18 14:32:57.976 [Thread-33] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1574058777976, current=DOWN, previous=UP]
+2019-11-18 14:32:57.977 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WSIC-ELEC-API/windows10.microdone.cn:wsic-elec-api:11013: registering service...
+2019-11-18 14:32:57.991 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WSIC-ELEC-API/windows10.microdone.cn:wsic-elec-api:11013 - registration status: 204
+2019-11-18 14:32:58.005 [Thread-33] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-18 14:32:59.139 [Thread-33] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-11-18 14:33:02.141 [Thread-33] INFO  com.netflix.discovery.DiscoveryClient - Unregistering ...
+2019-11-18 14:33:02.148 [Thread-33] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WSIC-ELEC-API/windows10.microdone.cn:wsic-elec-api:11013 - deregister  status: 200
+2019-11-18 14:33:02.158 [Thread-33] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2019-11-18 14:33:04.144 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$494121c3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-18 14:33:04.841 [restartedMain] INFO  com.ws.wsic.elec.api.WsicApplication - No active profile set, falling back to default profiles: default
+2019-11-18 14:33:06.506 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-18 14:33:06.507 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-18 14:33:06.513 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-11-18 14:33:06.673 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=e55f1894-bdfd-3cd8-a004-9ad5dd77865d
+2019-11-18 14:33:06.715 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2d271ec6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-18 14:33:06.718 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$494121c3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-18 14:33:07.001 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 11013 (http)
+2019-11-18 14:33:07.002 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-11013"]
+2019-11-18 14:33:07.003 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-11-18 14:33:07.003 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-11-18 14:33:07.049 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-11-18 14:33:07.049 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2203 ms
+2019-11-18 14:33:07.210 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2019-11-18 14:33:07.493 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-11-18 14:33:07.510 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-11-18 14:33:07.510 [restartedMain] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-18 14:33:07.576 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-18 14:33:08.508 [restartedMain] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-11-18 14:33:08.509 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-11-18 14:33:08.512 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-11-18 14:33:08.512 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-11-18 14:33:08.512 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-11-18 14:33:08.512 [restartedMain] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-11-18 14:33:08.568 [restartedMain] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-11-18 14:33:08.569 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-11-18 14:33:08.569 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-11-18 14:33:08.569 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-11-18 14:33:08.569 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-11-18 14:33:08.569 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-11-18 14:33:08.569 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-11-18 14:33:08.569 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-11-18 14:33:08.575 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-11-18 14:33:08.576 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-11-18 14:33:08.577 [restartedMain] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-11-18 14:33:08.578 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1574058788578 with initial instances count: 3
+2019-11-18 14:33:08.633 [restartedMain] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application WSIC-ELEC-API with eureka with status UP
+2019-11-18 14:33:08.634 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1574058788634, current=UP, previous=STARTING]
+2019-11-18 14:33:08.634 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WSIC-ELEC-API/windows10.microdone.cn:wsic-elec-api:11013: registering service...
+2019-11-18 14:33:08.637 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-11-18 14:33:08.639 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-11-18 14:33:08.642 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WSIC-ELEC-API/windows10.microdone.cn:wsic-elec-api:11013 - registration status: 204
+2019-11-18 14:33:08.645 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-11-18 14:33:09.185 [restartedMain] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-11-18 14:33:09.187 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-11013"]
+2019-11-18 14:33:09.192 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 11013 (http) with context path ''
+2019-11-18 14:33:09.193 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 11013
+2019-11-18 14:33:09.193 [restartedMain] INFO  com.ws.wsic.elec.api.WsicApplication - Started WsicApplication in 5.837 seconds (JVM running for 935.165)
+2019-11-18 14:33:09.197 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-11-18 14:34:12.437 [RMI TCP Connection(2)-193.168.1.101] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2019-11-18 14:34:12.437 [RMI TCP Connection(2)-193.168.1.101] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Unregistering application WSIC-ELEC-API with eureka with status DOWN
+2019-11-18 14:34:12.437 [RMI TCP Connection(2)-193.168.1.101] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1574058852437, current=DOWN, previous=UP]
+2019-11-18 14:34:12.437 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WSIC-ELEC-API/windows10.microdone.cn:wsic-elec-api:11013: registering service...
+2019-11-18 14:34:12.441 [RMI TCP Connection(2)-193.168.1.101] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-18 14:34:12.443 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WSIC-ELEC-API/windows10.microdone.cn:wsic-elec-api:11013 - registration status: 204
+2019-11-18 14:34:13.558 [RMI TCP Connection(2)-193.168.1.101] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ws.wsic.elec.business.mapper.MeterMapper">
+	<resultMap id="BaseResultMap" type="com.ws.wsic.elec.business.model.Meter">
+		<result column="id" property="id" jdbcType="INTEGER" />
+		<result column="address" property="address" jdbcType="VARCHAR" />
+		<result column="apikey" property="apikey" jdbcType="VARCHAR" />
+		<result column="status" property="status" jdbcType="INTEGER" />
+	</resultMap>
+
+	<select id="selectByPrimaryKey" resultMap="BaseResultMap"
+		parameterType="java.lang.Integer">
+		select * from bus_meter
+		where id = #{id,jdbcType=DECIMAL}
+	</select>
+
+	<select id="selectList" resultMap="BaseResultMap">
+		select m.* from bus_meter m
+		where m.status = 1
+		<if test="apikey != null and apikey != ''">
+     	    and m.apikey = #{apikey,jdbcType=VARCHAR}
+		</if>
+		order by m.id
+	</select>
+
+</mapper>
